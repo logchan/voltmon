@@ -14,7 +14,7 @@ Voltmon
   - 如果你用的不是 Arduino Nano，请先把 `N_PINS` 和 `pin_ids` 改成支持 `analogWrite` 的 pin
 - 运行 `python voltmon.py`
   - 默认使用第一个串口，如果你有多个串口也可以用 `--port name` 指定串口
-  - 默认输出端口是 `pin_ids` 里的第1个和第4个（对应 Nano 的 pin 3, 9~）注：非初音未来梗~。可以用 `--cpu_pin` 和 `--ram_pin` 来指定使用 `pin_ids` 里的第几个 pin
+  - 默认输出端口是 `pin_ids` 里的第1个和第4个（对应 Nano 的 pin 3, 9）（*注：非初音未来梗）。可以用 `--cpu_pin` 和 `--ram_pin` 来指定使用 `pin_ids` 里的第几个 pin
 
 # English
 
